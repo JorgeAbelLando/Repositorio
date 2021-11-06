@@ -1,0 +1,39 @@
+:root{
+--primary: #2d572c;
+--secondary: #00ff00;
+--tertiary: #ccc;
+--quaternary:
+}
+html,body{
+    margin:0;
+    padding:0;
+}
+nav{
+    background-color:var(--primary);
+}
+ li{
+    display: inline-block;
+    padding: 10px 60px;
+}
+li a{
+    color:var(--secondary);
+    text-decoration: none; 
+}
+li :hover > a{
+    color:var(--tertiary);
+    
+}
+li :hover {
+    color:var(--tertiary);
+}
+
+#logo:hover{
+    border: 2px solid red;
+}
+ul a{
+    display: inline-block;
+    padding: 10px 0px 10;
+}
+ul {
+    background-color:var(--primary);
+}
